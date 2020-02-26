@@ -1,0 +1,48 @@
+1. Newton Second Law
+    set;
+    m = "600"
+    a = "2"
+    start
+        Read m,a
+            F = m*a
+                print F, "dikali",a, "hasilnya", F
+    END
+
+2. Tahun Kabisat
+    set; 
+    k = "Tahun Kabisat"
+    t = "Bukan Tahun Kabisat"
+    2020 = "366"
+    start
+        IF 2020 habis dibagi "4" AND tidak habis dibagi "100" THEN
+            print k
+        IF 2020 habis dibagi "4, 100, 400" THEN
+            print k 
+        Else
+            print t 
+        END IF 
+
+3. Laundry Day
+    set;
+    b = "pakaian foxie"
+    start
+    IF b < 20 THEN
+        print "mulai"
+    Else
+        print "tidak dimulai"
+    END IF
+
+4. Periksa Kuku
+    set;
+    g = "guru"
+    s = "siswa dengan kuku panjang"
+    m = "menghukum"
+    mj = "memuji"
+    start
+    IF "g" menemukan "s" THEN
+        print"m"
+    Else
+        print"mj"
+    END IF
+
+    
